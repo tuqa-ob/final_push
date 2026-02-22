@@ -97,7 +97,6 @@ int		parse_argv(int argc, char **argv, t_stack **a, t_flag_op *flag_op);
 void	run_algorithm(t_stack **a, t_flag_op *flag_op);
 int		get_max_bits(t_stack *a);
 void	complex_sort(t_stack **a, t_stack **b, t_flag_op *flag_op);
-int		get_chunk_size(int stack_size);
 int		get_max_index(t_stack *b);
 void	push_chunks(t_stack **a, t_stack **b,
 			int num_chunks, t_flag_op *flag_op);
