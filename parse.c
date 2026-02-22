@@ -40,8 +40,6 @@ int	parse_argv(int argc, char **argv, t_stack **a, t_flag_op *flag_op)
 	int		ret;
 
 	i = 1;
-	if (argc < 2)
-		return (0);
 	while (i < argc)
 	{
 		ret = handle_flag(argv[i], flag_op);
