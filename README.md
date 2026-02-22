@@ -18,8 +18,6 @@ This project focuses on:
 - Bitwise operations
 - Memory management in C
 
-For large inputs, this implementation uses a Radix Sort (LSD) adaptation to achieve efficient performance.
-
 ## Instructions
 
 make        # compile the program
@@ -33,14 +31,14 @@ Run the program:
 The program outputs the list of operations needed to sort the numbers
 
 * Algorithm Strategy
+--simple Forces the use of your O(n^2) algorithm. (selection sort)
+--medium Forces the use of your O(n√n) algorithm. (chunk-based)
+--complex Forces the use of your O(n log n) algorithm. (radix sort LSD)
+--adaptive Forces the use of your adaptive algorithm based on disorder. This is
+the default behavior if no selector is given.
 
-Small inputs (≤ 5 numbers): selection sorting
-Medium inputs(20 <= numbers <= 100)
-Large inputs (100 / 500 numbers): Radix Sort (LSD)
 
 Normalization step: convert values to indexed ranks before sorting
-
-Approximate complexity: O(n log n)
 
 * Allowed Operations
 
