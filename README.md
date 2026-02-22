@@ -31,6 +31,7 @@ Run the program:
 The program outputs the list of operations needed to sort the numbers
 
 * Algorithm Strategy
+
 --simple Forces the use of your O(n^2) algorithm. (selection sort)
 
 --medium Forces the use of your O(n√n) algorithm. (chunk-based)
