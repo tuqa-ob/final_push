@@ -12,16 +12,6 @@
 
 #include "push_swap.h"
 
-int	get_chunk_size(int stack_size)
-{
-	int		chunk;
-
-	chunk = 1;
-	while (chunk * chunk < stack_size)
-		chunk++;
-	return (chunk);
-}
-
 int	get_max_index(t_stack *b)
 {
 	int		max;
