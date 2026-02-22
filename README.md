@@ -32,8 +32,11 @@ The program outputs the list of operations needed to sort the numbers
 
 * Algorithm Strategy
 --simple Forces the use of your O(n^2) algorithm. (selection sort)
+
 --medium Forces the use of your O(n√n) algorithm. (chunk-based)
+
 --complex Forces the use of your O(n log n) algorithm. (radix sort LSD)
+
 --adaptive Forces the use of your adaptive algorithm based on disorder. This is
 the default behavior if no selector is given.
 
