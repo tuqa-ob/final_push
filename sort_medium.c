@@ -87,11 +87,10 @@ void	medium_sort(t_stack **a, t_stack **b, t_flag_op *flag_op)
 {
 	int	size;
 	int	num_chunks;
+	size = stack_size(*a);
 	num_chunks = 1;
 	while (num_chunks * num_chunks < size)
 		num_chunks++;
-	size = stack_size(*a);
-	
 	index_stack(a);
 	push_chunks(a, b, num_chunks, flag_op);
 	push_back(a, b, flag_op);
